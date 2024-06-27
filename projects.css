@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+}
+
+.project-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.project-content {
+  margin-bottom: 20px;
+}
+
+.project-content .text-image {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.project-content p {
+  margin-bottom: 10px;
+}
+
+.project-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.entete {
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #333;
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.text-button {
+  text-align: center;
+  margin-top: 17px;
+}
+
+.bu {
+  text-align: center;
+}
+
+.spacex {
+  height: 20px;
+}
+
+.space1 {
+  height: 40px;
+}

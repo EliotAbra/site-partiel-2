@@ -1,0 +1,286 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 1px;
+  text-align: right;
+  display: flex;
+}
+
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12,
+.c13,
+.c14,
+.c15 {
+  flex: 1;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+section {
+  border: 40px solid transparent;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  width: 100%;
+  height: 120px;
+}
+
+.text-footer {
+  margin: 20px;
+  display: flex;
+}
+
+.right-columnf,
+.left-columnf {
+  flex: 1;
+}
+
+.left-columnf {
+  text-align: right;
+}
+
+.text-link {
+  color: white;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: blue;
+}
+
+h1 {
+  word-spacing: 20px;
+}
+
+.bouton-ovale {
+  display: inline-block;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: transform 0.5s ease;
+}
+
+.bouton-ovale:hover {
+  background-color: #333;
+  transform: scale(1.2);
+}
+
+.bouton-ovale2 {
+  display: inline-block;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: transform 0.5s ease;
+}
+
+.bouton-ovale2:hover {
+  background-color: #333;
+  transform: scale(1.2);
+}
+
+.text-zoom {
+  transition: transform 0.5s ease;
+}
+
+.text-zoom:hover {
+  transform: scale(1.2);
+}
+
+.profil-bouton {
+  text-align: center;
+}
+
+.contact-bouton {
+  text-align: center;
+}
+
+.espace {
+  margin-bottom: 70px;
+}
+
+.espace2 {
+  margin-bottom: 40px;
+}
+
+.baniere {
+  width: 100%;
+  height: 250px;
+  background-image: url(ville-orange.jpg);
+}
+
+.baniere1 {
+  height: 320px;
+  border-radius: 30px;
+  background-color: #444;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.baniere2 {
+  opacity: 0;
+  width: 100%;
+  height: 250px;
+  transform: translateX(-150%);
+  transition: transform 1s ease, opacity 1.25s ease;
+  background-image: url(fond-pp.jpg);
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.space5 {
+  height: 15%;
+}
+
+.oui {
+  text-decoration: none;
+}
+
+.portfolio {
+  font-size: 30;
+  transition: transform 0.5s ease;
+  text-decoration: none;
+}
+
+.portfolio:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.baniere3 {
+  opacity: 0;
+  width: 100%;
+  height: 250px;
+  transform: translateX(150%);
+  transition: transform 1s ease, opacity 1.25s ease;
+  background-image: url(fond-p.jpg);
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.devise {
+  text-align: center;
+  font-size: 60px;
+  display: block;
+}
+
+.fonction {
+  text-align: center;
+  font-size: 24px;
+}
+
+.portfolio {
+  text-align: center;
+  color: white;
+  font-size: 52px;
+  text-decoration: none;
+}
+
+.container1 {
+  display: flex;
+  text-align: center;
+}
+
+.left-column1,
+.mid-column1,
+.right-column1 {
+  flex: 1;
+  transition: transform 0.5s ease;
+}
+
+.left-column1:hover {
+  transform: scale(1.2);
+}
+
+.mid-column1:hover {
+  transform: scale(1.2);
+}
+
+.right-column1:hover {
+  transform: scale(1.2);
+}
+
+.img-p {
+  border-radius: 30px;
+}
+
+.image-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.baniere3.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.baniere2.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.logo {
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.space6 {
+  height: 20px;
+}
+
+.space7 {
+  height: 50px;
+}
